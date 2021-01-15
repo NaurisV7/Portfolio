@@ -1,0 +1,18 @@
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-size {
+    font-size: 20px;
+}
+
+.header-main a {
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+}
