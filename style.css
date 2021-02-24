@@ -1,13 +1,22 @@
 body {
+    margin: auto;
 }
+
+
 
 .header-container {
     display: flex;
     justify-content: space-around;
+
 }
 
 .header-size {
-    font-size: 20px;
+    font-size: 29px;
+    padding-left: 20px;
+}
+
+.top-margin {
+    margin-top: 15px;
 }
 
 .header-main a {
@@ -20,10 +29,217 @@ body {
     align-items: center;
 }
 
+.header-main a {
+    color: white;
+}
+
 .first-background {
     background-image: url("images/Images_of_ski.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .first-div {
-    height: 100vh;
+    text-align: center;
+    margin-top: 100px;
 }
+
+.big {
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+
+.work {
+    
+    font-size: 40px;
+}
+
+.work a {
+    text-decoration: none;
+}
+.bottom {
+    margin-bottom: 40px;
+}
+
+.second-div {
+    background: #ebeaea;
+    height: 100vh;
+    display: flex;
+    padding-right: 100px;
+
+
+}
+.third-div {
+    background: #000000;
+    height: 100vh;
+    display: flex;
+    padding-right: 100px;
+}
+
+.fourth-div {
+    background-image: url("images/reinis_mazs_es.jpeg");
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.fifth-div {
+    background: #000000;
+    height: 100vh;
+    display: flex;
+    padding-right: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.image {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.image-1 img {
+    height: 600px;
+    margin: 25px;
+}
+
+.image-2 img {
+    height: 400px;
+    width: 400px;
+    margin: 25px;
+}
+
+.article {
+    font-size: 30px;
+    margin: 0;
+    text-justify: auto;
+}
+
+.white {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.padding {
+    padding-left: 50px;
+}
+
+.image-div {
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-div img {
+    height: 400px;
+    margin: 12px;
+}
+
+.middle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-size {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+}
+
+.sazina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+    
+}
+
+.margin {
+    margin-bottom: 25px;
+}
+
+.sazina input {
+    margin-bottom: 10px;
+}
+
+.sazina-name {
+    width: 150px;
+    
+}
+
+.sazina-text {
+    width: 400px;
+    height: 200px;
+}
+
+#black {
+    color: black;
+}
+
+#grey {
+    background: #eeeeee;
+}
+
+.image-height {
+    height: 250px;
+    padding: 15px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    margin-top: 20px;
+}
+
+#margin-zero {
+    margin: 0;
+}
+
+#somesome {
+    background: #000000;
+    color: white;
+    border: none;
+}
+
+

@@ -11,7 +11,7 @@
         <div>
             <nav>
                 <form class="header-container">
-                    <div>
+                    <div class="top-margin">
                         <a href="index.html">
                             <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_d)">
@@ -40,27 +40,74 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="header-main">
-                        <a href="portfolio.html" class="header-size">Portfolio</a>
-                        <a href="about.html" class="header-size">About</a>
-                        <a href="gallery.html" class="header-size">Gallery</a>                        
+                    <div class="header-main top-margin">
+                        <a href="portfolio.html" id="black" class="header-size">Portfolio</a>                        
+                        <a href="gallery.html" id="black" class="header-size">Galerija</a>                        
                     </div>
-                    <div class="header-main">
-                        <a href="contact_me.html" class="header-size">Contact</a> 
+                    <div class="header-main top-margin">
+                        <a href="#footer" id="black" class="header-size">Kontakti</a> 
                     </div>
                 </form>
             </nav>
         </div>
     </header>
-    <h1>
-        My Portfolio
+    <h1 class="middle big">
+        Mans Portfolio
     </h1>
 
-    <h2>
-        I'm dedicated alpine ski instructor.
-    </h2>
+    <div class="flex-container">
+        <a href="https://codesandbox.io/s/first-homework-with-lines-rmppz?file=/index.html" target="_blank">
+            <img class="image-height" src="Homeworks/Capture.JPG"/>
+        </a>
+        <a href="https://codesandbox.io/s/interesting-bhabha-zi29c" target="_blank">
+            <img class="image-height" src="Homeworks/Capture1.JPG">
+        </a>
+        <a href="https://codesandbox.io/s/keen-flower-2qutm?file=/style.css" target="_blank">
+            <img class="image-height" src="Homeworks/Capture2.JPG">
+        </a>
+        <a href="https://codesandbox.io/s/js-piemeri-version-4-1do5p" target="_blank">
+            <img class="image-height" src="Homeworks/Capture3.JPG">            
+        </a>
+        <a href="https://codesandbox.io/s/uzdevumu-saraksta-fails-zplbz" target="_blank">
+            <img class="image-height" src="Homeworks/Capture4.JPG" >
+        </a>
+        <a href="https://codesandbox.io/s/uzdevumu-saraksts-ar-construktoru-xfmyd" target="_blank">
+            <img class="image-height" src="Homeworks/Capture9.JPG">            
+        </a>
+    </div>
     <p>
         
     </p>
+
+    <footer>
+        <nav class="footer" id="footer">
+            <div class="sazina" >
+                <p id="margin-zero">Nauris Valainis</p>
+                <p id="margin-zero">valainis.nauris@gmail.com</p>
+                <p id="margin-zero">+371 28366214</p>
+            </div>
+            <form class="footer-container">
+                <div class="footer-main">
+                    <a href="index.html" class="footer-size">Sākums</a>
+                    <a href="portfolio.html" class="footer-size">Portfolio</a>                   
+                    <a href="gallery.html" class="footer-size">Galerija</a>                      
+                    <a href="https://www.facebook.com/nauris.valainis.3/" target="_blank" class="footer-size">Facebook</a>                     
+                </div>
+            </form>
+            <form class="sazina">
+                <label for="name">
+                    Jūsu vārds:
+                </label>
+                <input type="name" id="name" class="sazina-name" />
+                
+                <label for="text">
+                    Jūsu ziņa:
+                </label>
+                <input type="text" id="text" class="sazina-text" />
+               
+                <button class="margin">Iesniegt</button>
+            </form>
+        </nav>
+    </footer>
 </body>
 </html>

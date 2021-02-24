@@ -11,7 +11,7 @@
         <div>
             <nav>
                 <form class="header-container">
-                    <div>
+                    <div class="top-margin">
                         <a href="index.html">
                             <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_d)">
@@ -40,20 +40,68 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="header-main">
-                        <a href="portfolio.html" class="header-size">Portfolio</a>
-                        <a href="about.html" class="header-size">About</a>
-                        <a href="gallery.html" class="header-size">Gallery</a>                        
+                    <div class="header-main top-margin">
+                        <a href="portfolio.html" id="black" class="header-size">Portfolio</a>
+                        <a href="gallery.html" id="black" class="header-size">Galerija</a>                        
                     </div>
-                    <div class="header-main">
-                        <a href="contact_me.html" class="header-size">Contact</a> 
+                    <div class="header-main top-margin">
+                        <a href="#footer" id="black" class="header-size">Kontakti</a> 
                     </div>
                 </form>
             </nav>
         </div>
     </header>
-    <h1>
-        Some pictures with me
+    <h1 class="big middle">
+        Dažas bildes ar mani
     </h1>
+    <div class="image-div">
+        <img src="images/alpi.jpeg" alt="some"/>
+        <img src="images/Images_of_ski.jpeg"/>
+        <img src="images/little_dude.jpeg"/>
+        <img src="images/me_and_krista.jpeg"/>
+        <img src="images/reini_liels_debesis.jpeg"/>
+        <img src="images/reinis_lente.jpeg"/>
+        <img src="images/reinis_liels_debesis_berns.jpeg"/>
+        <img src="images/reinis_liels_kreisais.jpeg"/>
+        <img src="images/reinis_liels_kresais_koki.jpeg"/>
+        <img src="images/reinis_mazs_es.jpeg"/>
+        <img src="images/reinis_noma.jpeg"/>
+        <img src="images/reinis_push_sniegu.jpeg"/>
+        <img src="images/reinis_small.jpeg"/>
+        <img src="images/sightseeing.jpeg"/>
+        <img src="images/steep-slope.jpeg"/>
+        <img src="images/zale.jpeg"/>
+
+    </div>
+    <footer>
+        <nav class="footer" id="footer">
+            <div class="sazina" >
+                <p id="margin-zero">Nauris Valainis</p>
+                <p id="margin-zero">valainis.nauris@gmail.com</p>
+                <p id="margin-zero">+371 28366214</p>
+            </div>
+            <form class="footer-container">
+                <div class="footer-main">
+                    <a href="index.html" class="footer-size">Sākums</a>
+                    <a href="portfolio.html" class="footer-size">Portfolio</a>                   
+                    <a href="gallery.html" class="footer-size">Galerija</a>                      
+                    <a href="https://www.facebook.com/nauris.valainis.3/" target="_blank" class="footer-size">Facebook</a>                     
+                </div>
+            </form>
+            <form class="sazina">
+                <label for="name">
+                    Jūsu vārds:
+                </label>
+                <input type="name" id="name" class="sazina-name" />
+                
+                <label for="text">
+                    Jūsu ziņa:
+                </label>
+                <input type="text" id="text" class="sazina-text" />
+               
+                <button class="margin">Iesniegt</button>
+            </form>
+        </nav>
+    </footer>
 </body>
 </html>
